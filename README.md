@@ -15,7 +15,7 @@
 ## Design
 
 ### Desktop
-<img src="src/design/desktop.jpg" alt="imagem do desktop">
+<img src="src/design/Desktop.jpg" alt="imagem do desktop">
 
 ### Responsivo
 <img src="src/design/mobile.jpg" alt="imagem do responsivo">
