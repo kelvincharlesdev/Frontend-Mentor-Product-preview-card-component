@@ -1,0 +1,125 @@
+html{
+    font-size: 62,5%;
+}
+body{
+    background-color: var(--Cream);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: var(--White);
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    
+
+}
+
+.container .picture{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+}
+
+.container .picture img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0px 10px;
+    
+}
+
+
+
+.container .description{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    
+}
+
+
+.container .description .description-product{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--Dark-grayish);
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem ;
+}
+
+.container .description h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+    color: var(--Very-dark);
+    line-height: 2.2rem;
+    
+}
+
+.container .description .description-subtitle{
+    color: var(--Dark-grayish);
+    margin-bottom: 2rem;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    
+}
+
+.container .description .value{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.container .description .value .value-promotional{
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--Dark-cyan);
+}
+
+.container .description .value .value-fixed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Dark-grayish);
+    font-size: 0.9rem;
+
+}
+
+.container .description .btn{
+    background-color: var(--Dark-cyan);
+    padding: 0.9rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: 0,3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.container  .description a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 0.9rem;
+    
+}
+
+
+.container .description .btn:hover{
+    background-color: var(--Very-dark);
+    cursor: pointer;
+    opacity: 0.8;
+}
