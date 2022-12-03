@@ -18,7 +18,7 @@
 <img src="src/design/Desktop.jpg" alt="imagem do desktop">
 
 ### Responsivo
-<img src="src/design/mobile.jpg" alt="imagem do responsivo">
+<img src="src/design/Mobile.jpg" alt="imagem do responsivo">
 
 ### Gif de Funcionalidade
    <img src="src/design/cartao-de-produto.gif"> 
